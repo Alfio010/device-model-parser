@@ -1,5 +1,11 @@
-import IDeviceModelInfo from "./interfaces";
 import devicesList from "./deviceList.json";
+
+interface IDeviceModelInfo {
+  retailBranding: string;
+  marketingName: string;
+  device: string;
+  model: string;
+}
 
 let __device_map_cached: Map<
   IDeviceModelInfo["model"],
