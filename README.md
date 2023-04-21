@@ -2,7 +2,7 @@
 
 Converts the model of Android devices into the extended name
 
-Example: \
+Example:
 ```typescript
 import getDeviceList from 'device-model-parser'
 
