@@ -1,19 +1,21 @@
-import { DeviceModelInfo } from "./interfaces";
+import IDeviceModelInfo from "./interfaces";
 import devicesList from "./deviceList.json";
 
-let __device_map_cached: Map<DeviceModelInfo["model"], DeviceModelInfo> | null =
-  null;
+let __device_map_cached: Map<
+  IDeviceModelInfo["model"],
+  IDeviceModelInfo
+> | null = null;
 
 export default function getDeviceList(): Map<
-  DeviceModelInfo["model"],
-  DeviceModelInfo
+  IDeviceModelInfo["model"],
+  IDeviceModelInfo
 > {
   if (__device_map_cached !== null) {
     return __device_map_cached!!;
   }
 
-  const devices = devicesList as DeviceModelInfo[];
-  const device_map = new Map<DeviceModelInfo["model"], DeviceModelInfo>();
+  const devices = devicesList as IDeviceModelInfo[];
+  const device_map = new Map<IDeviceModelInfo["model"], IDeviceModelInfo>();
 
   for (const device of devices) {
     device_map.set(device.model, device);

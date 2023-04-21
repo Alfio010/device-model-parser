@@ -1,4 +1,4 @@
-export interface DeviceModelInfo {
+export default interface IDeviceModelInfo {
   retailBranding: string;
   marketingName: string;
   device: string;
