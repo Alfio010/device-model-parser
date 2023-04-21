@@ -1,0 +1,26 @@
+{
+  "name": "device-model-parser",
+  "version": "1.0.0",
+  "description": "Converts the model of Android devices into the extended name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfio010/device-model-parser.git"
+  },
+  "keywords": [
+    "android",
+    "parser"
+  ],
+  "author": "Alfio010",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alfio010/device-model-parser/issues"
+  },
+  "homepage": "https://github.com/Alfio010/device-model-parser#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.13"
+  }
+}
