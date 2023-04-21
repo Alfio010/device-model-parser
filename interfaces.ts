@@ -1,6 +1,6 @@
 export interface DeviceModelInfo {
-    retailBranding: string,
-    marketingName: string,
-    device: string,
-    model: string
-  }
+  retailBranding: string;
+  marketingName: string;
+  device: string;
+  model: string;
+}
