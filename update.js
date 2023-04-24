@@ -21,10 +21,10 @@ async function fetchAndStoreSupportedDevices() {
 
   const supported_devices_json = await getSupportedDeviceJsonFromRawCsv(
     supported_devices_csv
-      .replace('Retail Branding', 'retailBranding')
-      .replace('Marketing Name', 'marketingName')
-      .replace('Device', 'device')
-      .replace('Model', 'model')
+      .replace("Retail Branding", "retailBranding")
+      .replace("Marketing Name", "marketingName")
+      .replace("Device", "device")
+      .replace("Model", "model")
   );
 
   await writeFile("deviceList.json", JSON.stringify(supported_devices_json));

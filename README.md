@@ -3,6 +3,7 @@
 Converts the model of Android devices into the extended name.
 
 The list is taken from https://storage.googleapis.com/play_public/supported_devices.html and converted to this interface
+
 ```typescript
 interface IDeviceModelInfo {
   retailBranding: string;
@@ -13,12 +14,13 @@ interface IDeviceModelInfo {
 ```
 
 Example:
+
 ```typescript
-import getDeviceList from 'device-model-parser'
+import getDeviceList from "device-model-parser";
 
-const deviceMap = getDeviceList()
+const deviceMap = getDeviceList();
 
-console.log(deviceMap.get('SM-G980F')?.marketingName)
+console.log(deviceMap.get("SM-G980F")?.marketingName);
 ```
 
 Output: \
