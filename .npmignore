@@ -1,6 +1,6 @@
 node_modules/
 .nvmrc
-deviceList.json
+/deviceList.json
 index.ts
 package-lock.json
 package.json
