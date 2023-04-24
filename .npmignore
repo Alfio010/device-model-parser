@@ -1,0 +1,9 @@
+node_modules/
+.nvmrc
+deviceList.json
+index.ts
+package-lock.json
+package.json
+tsconfig.json
+update.js
+.gitignore
