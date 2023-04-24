@@ -1,6 +1,16 @@
 # device-model-parser
 
-Converts the model of Android devices into the extended name
+Converts the model of Android devices into the extended name.
+
+The list is taken from https://storage.googleapis.com/play_public/supported_devices.html and converted to this interface
+```typescript
+interface IDeviceModelInfo {
+  retailBranding: string;
+  marketingName: string;
+  device: string;
+  model: string;
+}
+```
 
 Example:
 ```typescript
