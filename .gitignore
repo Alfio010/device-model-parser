@@ -1,3 +1,4 @@
 node_modules/
 deviceList.json
 dist/
+device-model-parser-*.tgz
