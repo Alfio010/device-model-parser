@@ -28,7 +28,7 @@ jobs:
         run: node update.js
 
       - name: Compile TypeScript
-        run: npx tsc
+        run: npm run build
 
       - name: Bump version (patch)
         run: |
