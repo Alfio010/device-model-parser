@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Run TypeScript script
-        run: npx ts-node your-script.ts
+        run: npx ts-node update.ts
 
       - name: Compile TypeScript
         run: npx tsc
