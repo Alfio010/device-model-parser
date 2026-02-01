@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/Alfio010/device-model-parser.git"
   },
+  "publishConfig": {
+  "access": "public"
+  },
   "keywords": [
     "android",
     "android-model",
