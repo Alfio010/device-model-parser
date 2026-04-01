@@ -1,6 +1,6 @@
 {
   "name": "device-model-parser",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "description": "Converts the model of Android devices into the extended name",
   "main": "dist/index.js",
   "scripts": {
